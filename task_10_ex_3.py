@@ -56,9 +56,6 @@ def get_list_students(file_path: str):
         return list_students
 
 
-# print(get_list_students('students.csv'))
-
-
 def get_top_performers(file_path, number_of_top_students=5):
     top_students = get_list_students(file_path)
     sorted_students = sorted(top_students, key=lambda x: x.mark, reverse=True)
