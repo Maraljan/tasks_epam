@@ -79,4 +79,4 @@ def write_students_age_desc(file_path, output_file):
             writer.writerow({'student name': student.name, 'age': student.age, 'average mark': student.mark})
 
 
-print(write_students_age_desc('students.csv', 'new_students.csv'))
+# print(write_students_age_desc('students.csv', 'new_students.csv'))
